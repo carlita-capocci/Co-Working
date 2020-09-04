@@ -50,7 +50,7 @@
 
         <img src="imagenes/lgo.png" alt="" class="logo">
 
-        <ul class="navbar-nav mr-auto">
+        <ul class="navbar-nav navbar-rel">
           <li class="nav-item active">
             <a class="nav-link" href="#Nosotros">Nosotros <span class="sr-only">(current)</span></a>
           </li>
@@ -64,8 +64,23 @@
           <li class="nav-item active">
             <a class="nav-link " href="#Alianzas">Alianzas </a>
           </li>
+
+          <li class="nav-item active">
+            <a class="nav-link " href="#Novedades">Novedades </a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link " href="#Contacto">Contacto </a>
+          </li>
+
         </ul>
 
+        <ul class="navbar-nav nav-right">
+          <li class="nav-item active">
+            <a class="nav-link " href="#">Log In </a>
+          </li>
+
+        </ul>
       </div>
     </nav>
   </header>
@@ -77,6 +92,7 @@
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -96,6 +112,16 @@
             </div>
           </div>
         </div>
+
+        <div class="carousel-item">
+          <div class="container">
+            <div class="carousel-caption">
+              <img src="imagenes/afuera.jpg" alt="imagen2" class="imgs">
+
+            </div>
+          </div>
+        </div>
+
         <div class="carousel-item">
           <div class="container">
             <div class="carousel-caption text-right">
@@ -132,15 +158,15 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading" id="Nosotros">Nosotros <p class="text-muted">Nuestra Visión y Valores</p>
-          </h2>
+          <h2 class="featurette-heading" id="Nosotros">Nuestro Propósito <span class="text-muted"></span></h2>
           <br>
-          <p> Ser el mejor CW de Córdoba y llegar en cinco años a generar un sistema de franquicia en
-            Argentina; brindando un espacio diferenciado, donde empresas, profesionales independientes y emprendedores,
-            puedan construir sus negocios, crecer y ser más productivos; promoviendo alianzas a partir de un networking
-            profesional basado en una cultura de innovación y crecimiento.</p>
-          <p> Sostenemos la <strong>Flexibilidad</strong>, la <strong>Confianza</strong>, la <strong>Innovación</strong> y la <strong>Colaboración</strong> como valores fundamentales de nuestra empresa.
-            </p>
+
+          <p>Poner a disposición infraestructura de alto nivel, confortable, amigable con el medioambiente
+            y en localizaciones estratégicas; brindando un servicio de excelencia –dentro del marco propuesto–
+            promoviendo la generación de una comunidad de profesionales; potenciando el networking interno y externo con
+            el ámbito empresario con propuestas innovadoras.</p>
+
+            
         </div>
         <div class="col-md-5">
 
@@ -155,12 +181,16 @@
 
       <div class="row featurette">
         <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading">Nuestro Propósito <span class="text-muted"></span></h2>
-          <br>
-          <p>Poner a disposición infraestructura de alto nivel, confortable, amigable con el medioambiente
-            y en localizaciones estratégicas; brindando un servicio de excelencia –dentro del marco propuesto–
-            promoviendo la generación de una comunidad de profesionales; potenciando el networking interno y externo con
-            el ámbito empresario con propuestas innovadoras.</p>
+          
+         
+
+
+            <h2 class="featurette-heading text-muted">Nuestra Visión y Valores</p>
+            </h2>
+            <br>
+            <p> Ser un coworking elegido por empresas, profesionales, independientes y emprendedores apasionados por su desarrollo profesional y llegar en 5 años a sumar nuevos puntos de trabajo en la ciudad de Córdoba; ofreciendo un espacio donde puedan construir y evolucionar sus negocios; promoviendo alianzas a partir de un networking profesional basado en una cultura y crecimiento.</p>
+            <p> Sostenemos la <strong>Flexibilidad</strong>, la <strong>Confianza</strong>, la <strong>Innovación</strong> y la <strong>Colaboración</strong> como valores fundamentales de nuestra empresa.
+              </p>
         </div>
         <div class="col-md-5 order-md-1">
 
@@ -345,24 +375,89 @@
             </h2>
           </div>
 
-
-
-
-
-        
+         
       </div><!-- /.row -->
+
+
+      
+
+      <hr class="featurette-divider">
+      
+
+
+      <div class="row featurette ">
+        <div class="col-md-7 centro">
+          <h2 class="featurette-heading" id="Novedades">Novedades </h2>
+          <br>
+
+          <img src="imagenes/calendario.png" alt="" class="imagengrupo4">
+         
+
+        </div>
+     
+         
+        </div>
+
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          
+         
+
+
+            <h2 class="featurette-heading text-muted" id="Contacto">Contactanos</p>
+            </h2>
+            <br>
+            <form>
+              <label for="fname">Nombre</label><br>
+              <input type="text" id="fname" name="fname" class="form"><br>
+
+              
+              <br>
+
+              <label for="lname">Email</label><br>
+              <input type="email" id="lname" name="lname" class="form" >
+
+              <br>
+              <br>
+
+              <label for="lname">Comentario</label><br>
+              <textarea name="comentarios" rows="10" cols="50"  class="form"></textarea>
+
+              <br>
+              <br>
+              <input type="submit" id="lname" name="Eniar">
+            </form>
+
+
+
+        </div>
+        <div class="col-md-5 order-md-1 ">
+
+          <div class="imagengrup imgform">
+            <img src="imagenes/andrea-davis-04G19lnpHcc-unsplash.jpg" alt="" class="imgfinal">
+          </div>
+
+
+        </div>
+      </div>
 
       <hr class="featurette-divider">
 
       <!-- /END THE FEATURETTES -->
 
 
-    </div><!-- /.container -->
+    </div><!-- /.containersssss -->
 
 
     <!-- FOOTER -->
     <footer class="container">
       <p class="float-right">
+        <h5 class="float-right">Seguinos en nuestras redes:</h5>
+        <br>
+        <br>
         <img src="imagenes/linkedin-square-logo-24.png" alt="" class="float-right">
         <img src="imagenes/twitter-logo-24.png" alt="" class="float-right">
         <img src="imagenes/instagram-alt-logo-24.png" alt="" class="float-right">
@@ -380,3 +475,7 @@
   <script src="assets/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>
+
+
+
+

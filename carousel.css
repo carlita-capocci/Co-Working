@@ -41,6 +41,7 @@ body {
 
 .container h2, .row > div > h2{
   text-align: center;
+  margin-top: 3rem;
 }
 
 
@@ -129,6 +130,49 @@ nav{
 
 .alianzas > div > h2{
   text-align: center;
+}
+
+
+.imagengrupo4{
+  width: 380px;
+  height: 800px;
+}
+
+.form{
+  width: 100%;
+}
+
+.imgform{
+  margin-top: 50px;
+}
+
+.centro{
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.navbar-rel{
+position: relative;
+}
+
+.nav-right{
+  position: absolute;
+right: 0px;
+margin-right: 50px;
+}
+
+.imagengrup{
+  width: 100%;
+  height: 800px;
+  overflow: hidden;
+  
+}
+
+
+.imgfinal{
+  width: 100%;
+  
 }
 
 
